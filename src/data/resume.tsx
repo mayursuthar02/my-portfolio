@@ -206,7 +206,7 @@ export const DATA = {
         },
       ],
       image: Img1P,
-      // video:
+      video: ""
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
 
@@ -236,6 +236,7 @@ export const DATA = {
         },
       ],
       image: Img2P,
+      video: ""
     },
 
     {
@@ -264,7 +265,7 @@ export const DATA = {
         },
       ],
       image: Img3P,
-      // video: "https://cdn.llm.report/openai-demo.mp4",
+      video: ""
     },
 
     // {

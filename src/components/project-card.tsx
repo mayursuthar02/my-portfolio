@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import { StaticImageData } from 'next/image';
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -18,7 +19,7 @@ interface Props {
   dates: string;
   tags: readonly string[];
   link?: string;
-  image?: string;
+  image?: string | StaticImageData; // Allow string or StaticImageData
   video?: string;
   links?: readonly {
     icon: React.ReactNode;
