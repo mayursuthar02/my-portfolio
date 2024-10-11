@@ -20,12 +20,19 @@ export const DATA = {
     "CSS",
     "Chakra UI",
     "Taildwind CSS",
-    "JavaScript",
+    "JavaScript(ES6+)",
+    // "TypeScript",
     "React.js",
+    // "Next.js",
     "Node.js",
     "Express.js",
     "MongoDB",
-    "MERN Stack",
+    "MySQL",
+    "JAVA (Basic)",
+    "Git/Github",
+    "Postman",
+    "Cloudinary(Image Storage)",
+    "Stripe(Payment Integration)",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -157,9 +164,9 @@ export const DATA = {
 
   education: [
     {
-      school: "Udhna Citizen College",
+      school: "Veer Narmad South Gujarat University, Surat",
       href: "https://www.udhnacollege.ac.in/Home.php",
-      degree: "Bachelor Of Computer Application (BCA)",
+      degree: "BCA (Bachelor of Computer Applications)",
       logoUrl: "",
       start: "2022",
       end: "2025 - (Under Graduation)",

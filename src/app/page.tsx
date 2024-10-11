@@ -32,6 +32,9 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              <Link href={"https://drive.google.com/file/d/1DTmQFsx00BxQNeb4kC3jM_-FgCFewIqD/view?usp=sharing"} target="_blank">
+                <Badge className="gap-2 p-3 rounded-full text-[13px] ">CV</Badge>
+              </Link>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
